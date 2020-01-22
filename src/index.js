@@ -1,9 +1,17 @@
-var http = require("http");
+const express = require("express");
+const app = express();
+const { engine } = require("express-edge");
 
-//create a server object:
-http
-  .createServer(function(req, res) {
-    res.write("Hello World!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+app.use(engine);
+app.set("views", `${__dirname}/views`);
+app.use(express.static("public"));
+app.use(express.json());
+
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use(require("./routes"));
+
+app.listen(3000, () => {
+  console.log("Your server is running");
+});
