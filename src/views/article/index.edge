@@ -1,0 +1,8 @@
+@layout('layouts.main')
+
+@section('main-content')
+      @each(article in articles)
+@!component('components.article' , title=article.title , time=article.createdAt , id=article.id)
+    @endeach
+
+@endsection

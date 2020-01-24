@@ -1,9 +1,17 @@
 const Router = require("express").Router();
-const { create } = require("../controllers/articleController");
+const {
+  index,
+  create,
+  getArticle,
+  setArticle,
+  updateArticle
+} = require("../controllers/articleController");
 
-// Router.get("/", articleList)
+Router.get("/", index);
 Router.get("/create", create);
-// Router.get("/:id", getSingleArtile)
-// Router.post("/", saveArticle)
+Router.post("/", setArticle);
+Router.get("/:id", getArticle);
+Router.get("/:id/edit", create);
+Router.post("/:id", updateArticle);
 
 module.exports = Router;

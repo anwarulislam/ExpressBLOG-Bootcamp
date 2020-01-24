@@ -1,0 +1,22 @@
+{
+  "articles": [
+    {
+      "id": "435aef18-db6d-491e-94e3-8ef1079452c7",
+      "title": "ইমেইল কি? কিভাবে পাঠাতে হয়? সঠিকভাবে জিমেইল একাউন্ট খুলার পদ্ধতি -শিখে নিন",
+      "body": "<p>asdfasdfasdf asdfasdf asdfasdf</p>",
+      "createdAt": "1/24/2020, 12:44:55 PM"
+    },
+    {
+      "id": "f6084352-6e33-480a-af8e-41fce424938b",
+      "title": "What about song?",
+      "body": "<p>একটা গোপন কথা </p><p>ছিলো <a href=\"https://google.com/\" target=\"_blank\">বলবার </a></p><p><em>বন্ধু সময় </em></p><p><strong>হবে কি তোমার?</strong></p>",
+      "createdAt": "1/24/2020, 1:10:21 PM"
+    },
+    {
+      "id": "5ec1f876-7525-4602-84a4-fe7a34ad7403",
+      "title": "New post",
+      "body": "<p>wwwwwwwwwwwwwwwwwwwwwwaklsdjfl\tklajsldfj\tkljasldkf\tlkjasdfasdf asdf asf</p>",
+      "createdAt": "1/24/2020, 1:18:19 PM"
+    }
+  ]
+}
